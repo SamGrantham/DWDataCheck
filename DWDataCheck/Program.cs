@@ -20,16 +20,16 @@ namespace DWDataCheck
                 string server = "(local)";
                 string file = @"C:\Temp\DWDataCheckLog.log";
                 string db = "TFS_Warehouse";
-                if (args.Length == 1)
+                if (args.Length >= 1)
                 {
                     server = args[0].ToString();
                 }
-                if (args.Length == 2)
+                if (args.Length >= 2)
                 {
                     db = args[1].ToString();
 
                 }
-                if (args.Length == 3)
+                if (args.Length >= 3)
                 {
                     file = args[2].ToString();
 
