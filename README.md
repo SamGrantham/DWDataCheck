@@ -20,11 +20,11 @@ Server: (local)
 DB: TFS_Warehouse
 File: C:\Temp\DWDataCheckLog.log
 You can Run in the following formats:
-DWDataCheck.exe <ServerName>
+DWDataCheck.exe ServerName
 OR
-DWDataCheck.exe <ServerName> <DBName>
+DWDataCheck.exe ServerName DBName
 OR
-DWDataCheck.exe <ServerName> <DBName> <FileName>
+DWDataCheck.exe ServerName DBName FileName
 
 ## Code
 As of the time of this Documents Creation the Code is located at https://github.com/SamGrantham/DWDataCheck
