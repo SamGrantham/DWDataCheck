@@ -19,7 +19,8 @@ Default Values:<br />
 Server: (local)<br />
 DB: TFS_Warehouse<br />
 File: C:\Temp\DWDataCheckLog.log<br />
-You can Run in the following formats:<br />
+<br />
+Alternately, you can Run in the following formats:<br />
 DWDataCheck.exe ServerName<br />
 OR<br />
 DWDataCheck.exe ServerName DBName<br />
